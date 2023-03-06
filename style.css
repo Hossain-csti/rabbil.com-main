@@ -5,6 +5,9 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.top-corner-bg {
+    background-image: url("https://rabbil.com/static/media/shape.2b51cba3ac3363b666ac.svg");
+}
 
 .d-flex input {
     width: 450px;
@@ -13,7 +16,7 @@
 
 .button-search button {
     border: none;
-    background-color: #22BF73;
+    background-color: #21BF73;
     width: 107px;
     margin-left: 339px;
     border-radius: 30px;
@@ -34,7 +37,7 @@
 
 .round {
     margin: -12px;
-    color: green;
+    color: #22BF73;
     border: 2px solid;
     height: 60px;
     width: 60px;
@@ -53,27 +56,52 @@
     margin-left: 11px;
     line-height: 53px;
 }
+
 /* ---Recommended------- */
+.section-title {
+    background-image: url("https://rabbil.com/static/media/section-title-bg.03a11e5369d3c5405895.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 10px;
+}
+
+.rounded {
+    margin-top: -10px;
+}
+
 .Express-rounded {
-    margin: -12px;
-    color: green;
     border: 2px solid;
-    height: 65px;
-    width: 120px;
-    background: white;
+    border-radius: 100px;
+    width: 60px;
+    height: 60px;
+    color: green;
+    margin-top: 25px;
+    margin-left: 7px;
+
 }
 
 .smal-rounded {
-    margin-left: 20px;
-    color: #dee2e6;
     border: 6px solid;
+    border-radius: 100px;
+    width: 23px;
     height: 22px;
-    width: 22px;
-    background: white;
-    margin-top: 20px;
+    color: #DEE2E6;
+    margin-top: -42px;
+    margin-left: 25px;
 }
 
-.Express-Back-End {
-    font-size: 13px;
-    margin-left: 20px;
+.card-title {
+    font-size: 17px;
+    font-weight: 600;
 }
+
+.card-text {
+    font-size: 14px;
+}
+
+.id-button button {
+    border-radius: 20px;
+    background-color: #21BF73;
+    width: 135px;
+    height: 44px;
+} 
